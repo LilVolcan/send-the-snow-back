@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# State.create(name: "Colorado")
+
+# Resort.create(name: "Arapahoe Basin", state_id: 1, status: "open", url: "https://www.arapahoebasin.com/", base_elevation: 35372, peak_elevation:   )
