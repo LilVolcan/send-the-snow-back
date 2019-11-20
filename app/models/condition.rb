@@ -1,3 +1,3 @@
 class Condition < ApplicationRecord
-    belongs_to :resorts
+    belongs_to :resort
 end
