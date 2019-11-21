@@ -83,18 +83,3 @@ conditions_scraper
 #     end 
 #     Exercise.category
 # end 
-
-
-# ==========================================================================
-# snocountry.com ('https://www.snocountry.com/snow-reports/us/colorado')
-# resorts = parsed_page.css('div#section-id-1570716008841')
-# first = resorts.first
-# name = first.css('div.resortcol-title')[0].css('a').text
-# weather = first.css('div#sppb-addon-wrapper-1571170484298').css('div.sppb-addon-content').children[4].text 
-# new snow = second.css('div#sppb-addon-1571170484303').css('div.sppb-addon-content').search('p')[1].text
-
-# Base conditions (if any) =============
-# add_info = first.css('div#sppb-addon-1571170484308').search('p')[1].text
-# add_info_array = add_info.split(" ")
-# base_depth = add_info_array.select { |n| n.include?("Base") }[0]
-# ==========================================================================

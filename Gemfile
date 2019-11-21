@@ -44,6 +44,10 @@ end
 
 gem 'rack-cors'
 
+# gem 'active_model_serializers'
+
+gem 'fast_jsonapi'
+
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'

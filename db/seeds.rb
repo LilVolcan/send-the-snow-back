@@ -22,7 +22,6 @@ require 'byebug'
 #         # puts "#1: creating #{resort[:name]}" 
 #     end 
 # end 
-
 # resort_scraper
 
 # def conditions_scraper
@@ -54,5 +53,4 @@ require 'byebug'
 #     end 
 #     # byebug
 # end 
-
 # conditions_scraper
