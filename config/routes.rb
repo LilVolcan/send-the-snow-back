@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/conditions', to: 'conditions#index'
 
   get '/resorts', to: 'resorts#index'
-  get '/resorts/:state_id', to: 'resorts#resort_filter'
+  get '/resorts/:state_id/:filter', to: 'resorts#filter'
 
+  
 end
