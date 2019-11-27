@@ -15,7 +15,9 @@ State.create(name: "Utah")
 State.create(name: "Vermont")
 State.create(name:"Washington")
 
-# ========================================================================================
+# TO ADD MORE STATES, CREATE ABOVE, AND THEN ADD TO EACH STATES ARRAY BELOW
+
+# # ========================================================================================
 
 def resort_scraper
 states = ["CO", "CA", "WY", "ID", "ME", "MT", "NY", "NC", "PA", "UT", "VT", "WA"]
@@ -41,7 +43,7 @@ end
 
 resort_scraper
 
-# # ======================================================================================
+# # # ======================================================================================
 def conditions_scraper
     states = ["CO", "CA", "WY", "ID", "ME", "MT", "NY", "NC", "PA", "UT", "VT", "WA"]
     index = 1;
