@@ -26,6 +26,13 @@ ActiveRecord::Schema.define(version: 2019_11_19_140649) do
   create_table "resorts", force: :cascade do |t|
     t.string "name"
     t.integer "state_id"
+    t.string "base_elevation"
+    t.string "summit_elevation"
+    t.string "icon"
+    t.string "image_url"
+    t.string "latitude"
+    t.string "longitude"
+    t.string "resort_link"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
